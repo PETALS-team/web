@@ -12,13 +12,13 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+          <Link href="#How">
+            <a>How</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="#Newsletter">
+            <a>Sign up</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -34,7 +34,7 @@ const Hero = () => (
         }
         description="Rapid and regular feedback mechanism proven to help teams improve"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="#How">
             <a>
               <Button xl>Find out how</Button>
             </a>

@@ -5,7 +5,7 @@ import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
 const Banner = () => (
-  <Section>
+  <Section id="Newsletter">
     <CTABanner
       title="Get free toolkits and advice to help your team improve"
       subtitle="Join the PETALS newsletter"

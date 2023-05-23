@@ -3,6 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
+    id="How"
     title="How does PETALS work"
     description="Identify five dimensions of team health rapidly and regularly"
   >
