@@ -28,8 +28,8 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Framework to help improve\n'}
-            <span className="text-primary-500">team health</span>
+            {'Improve your team health\n'}
+            <span className="text-primary-500">with the PETALS framework</span>
           </>
         }
         description="Rapid and regular feedback mechanism proven to help teams improve"
