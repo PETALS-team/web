@@ -2,11 +2,8 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
-    <span role="img" aria-label="Love">
-      ♥
-    </span>{' '}
-    by <a href="https://sijobling.com/petals/">Si</a>
+    © {new Date().getFullYear()} {AppConfig.title}. Trademark pending{' '}
+    <a href="https://sijobling.com/petals/">Si Jobling</a>
     {/*
      * PLEASE READ THIS SECTION
      * We'll really appreciate if you could have a link to our website
