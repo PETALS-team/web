@@ -29,10 +29,10 @@ const Hero = () => (
         title={
           <>
             {'Improve your team health\n'}
-            <span className="text-primary-500">with the PETALS framework</span>
+            <span className="text-primary-500">with PETALS</span>
           </>
         }
-        description="Rapid and regular feedback mechanism proven to help teams improve"
+        description="A simple framework to help continuously improve professional teams"
         button={
           <Link href="#How">
             <a>
