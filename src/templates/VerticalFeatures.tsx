@@ -5,8 +5,14 @@ const VerticalFeatures = () => (
   <Section
     id="How"
     title="How does PETALS work"
-    description="Identify five dimensions of team health rapidly and regularly"
+    description="Focus on five key metrics to identify continuous improvement"
   >
+    <VerticalFeatureRow
+      title="Identify five dimensions of team health rapidly and regularly"
+      description="Rate Productivity, Enjoyment, Teamwork, Learning and Serenity from the past iteration to calculate your overall Average"
+      image="/assets/images/feature.svg"
+      imageAlt="First feature alt text"
+    />
     <VerticalFeatureRow
       title="Collect individual scores"
       description="Setup or use existing regular team meeting (recommend weekly but fortnightly and monthly also works, agile retrospectives are perfect). Ask everyone to rate 5 dimensions out of 5. Use standard form with incremental range slider"
