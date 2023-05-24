@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.page-green {
+  background-color: #68CFB7;
+}
