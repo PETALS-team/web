@@ -10,7 +10,7 @@ const Banner = () => (
       title="Get free toolkits and advice to help your team improve"
       subtitle="Join the PETALS newsletter"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://buttondown.email/petalsteam?tag=website">
           <a>
             <Button>Sign up</Button>
           </a>
