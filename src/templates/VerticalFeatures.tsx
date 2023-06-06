@@ -10,27 +10,27 @@ const VerticalFeatures = () => (
       description="Focus on five key metrics to identify continuous improvement"
     >
       <VerticalFeatureRow
-        title="Identify five dimensions of team health rapidly and regularly"
-        description="Rate Productivity, Enjoyment, Teamwork, Learning and Serenity from the past iteration to calculate your overall Average"
+        title="Identify 5 key dimensions for your team's health"
+        description="Rate PRODUCTIVITY, ENJOYMENT, TEAMWORK, LEARNING and SERENITY from your recent iteration to calculate the team's overall AVERAGE (hence the acronym PETALS)"
         image="/assets/images/feature.svg"
         imageAlt="First feature alt text"
       />
       <VerticalFeatureRow
-        title="Collect individual scores"
-        description="Setup or use existing regular team meeting (recommend weekly but fortnightly and monthly also works, agile retrospectives are perfect). Ask everyone to rate 5 dimensions out of 5. Use standard form with incremental range slider"
+        title="Collect individual scores rapidly and regularly"
+        description="Setup or use existing regular team meetings (recommend weekly but fortnightly and monthly also works, Agile retrospectives are perfect). Ask everyone to rate 5 dimensions out of 5. Use a standard form with simple star ratings."
         image="/assets/images/feature.svg"
         imageAlt="First feature alt text"
       />
       <VerticalFeatureRow
         title="Review collective averages"
-        description="Calculate averages across the team for each dimension for overall view. What are the shifts on last time and over time? Any outliers to call out? Is the team safe enough to discuss individual scores? Discuss as a group, celebrating successes &  identifying possible improvement areas"
+        description="Calculate AVERAGES across the team for each dimension for overall team health view. What are the trends on last time and over time? Any outliers to call out? Is the team safe enough to discuss individual scores? Discuss as a group, celebrate successes &  identify possible improvement areas."
         image="/assets/images/feature2.svg"
         imageAlt="Second feature alt text"
         reverse
       />
       <VerticalFeatureRow
         title="Discuss & act"
-        description="Elaborate on key topics from scores. Determine route cause, use real examples to understand specific scenarios. Time-box each discussion to ensure every topic gets fair coverage. Agree on next steps with owners and goal dates"
+        description="Elaborate on key topics from the shared scores. Determine root cause, use real examples to understand specific scenarios, time-box each discussion to ensure every topic gets fair coverage. Agree on next steps with owners and goal dates."
         image="/assets/images/feature3.svg"
         imageAlt="Third feature alt text"
       />
