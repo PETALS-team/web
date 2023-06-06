@@ -26,7 +26,7 @@ const Logo = (props: ILogoProps) => {
         />
       </svg>
 
-      {AppConfig.site_name}
+      <span className="pl-2">{AppConfig.site_name}</span>
     </span>
   );
 };
