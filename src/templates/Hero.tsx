@@ -12,13 +12,18 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
+          <Link href="#Why">
+            <a>Why</a>
+          </Link>
+        </li>
+        <li>
           <Link href="#How">
             <a>How</a>
           </Link>
         </li>
         <li>
-          <Link href="#Newsletter">
-            <a>Sign up</a>
+          <Link href="#Join">
+            <a>Join</a>
           </Link>
         </li>
       </NavbarTwoColumns>
