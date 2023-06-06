@@ -18,21 +18,22 @@ const VerticalFeatures = () => (
       <VerticalFeatureRow
         title="Collect individual scores rapidly and regularly"
         description="Setup or use existing regular team meetings (recommend weekly but fortnightly and monthly also works, Agile retrospectives are perfect). Ask everyone to rate 5 dimensions out of 5. Use a standard form with simple star ratings."
-        image="/assets/images/feature.svg"
+        image="/assets/images/feature2.svg"
         imageAlt="First feature alt text"
+        reverse
       />
       <VerticalFeatureRow
         title="Review collective averages"
         description="Calculate AVERAGES across the team for each dimension for overall team health view. What are the trends on last time and over time? Any outliers to call out? Is the team safe enough to discuss individual scores? Discuss as a group, celebrate successes &  identify possible improvement areas."
-        image="/assets/images/feature2.svg"
+        image="/assets/images/feature.svg"
         imageAlt="Second feature alt text"
-        reverse
       />
       <VerticalFeatureRow
         title="Discuss & act"
         description="Elaborate on key topics from the shared scores. Determine root cause, use real examples to understand specific scenarios, time-box each discussion to ensure every topic gets fair coverage. Agree on next steps with owners and goal dates."
         image="/assets/images/feature3.svg"
         imageAlt="Third feature alt text"
+        reverse
       />
     </Section>
   </Background>
