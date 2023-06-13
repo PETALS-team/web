@@ -8,7 +8,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="page-green text-white">
+  <Background color="page-green">
     <Section yPadding="pt-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -35,7 +35,7 @@ const Hero = () => (
         title={
           <>
             {'Improve your team health\n'}
-            <span className="text-white">with PETALS</span>
+            <span>with PETALS</span>
           </>
         }
         description="A simple framework to help continuously improve professional team health"
