@@ -8,11 +8,11 @@ const Banner = () => (
   <Section id="Join">
     <CTABanner
       title="Get free toolkits and advice to help your team improve"
-      subtitle="Join the PETALS community with other fans"
+      subtitle="Join the PETALS newsletter with hundreds other users"
       button={
         <Link href="https://buttondown.email/petalsteam?tag=website">
           <a>
-            <Button>Sign up</Button>
+            <Button xl>Sign up</Button>
           </a>
         </Link>
       }
