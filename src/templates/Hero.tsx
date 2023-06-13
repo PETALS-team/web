@@ -1,8 +1,7 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -30,22 +29,11 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pb-32">
-      <img src="/assets/images/team-high-fives.svg" />
-      <HeroOneButton
-        title={
-          <>
-            {'Improve your team health\n'}
-            <span>with PETALS</span>
-          </>
-        }
-        description="A simple framework to help continuously improve professional team health"
-        button={
-          <Link href="#How">
-            <a>
-              <Button xl>Find out how</Button>
-            </a>
-          </Link>
-        }
+      <VerticalFeatureRow
+        title="Improve your team health with PETALS"
+        description="A simple framework to help continuously improve tech team health"
+        image="/assets/images/team-high-fives.svg"
+        imageAlt="Team high fiving"
       />
     </Section>
   </Background>
