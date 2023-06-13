@@ -6,7 +6,7 @@ const VerticalFeatures = () => (
   <Background color="bg-purple-300">
     <Section
       id="How"
-      title="How does PETALS work"
+      title="How does PETALS work?"
       description="Focus on five key metrics to identify continuous improvement"
     >
       <VerticalFeatureRow
