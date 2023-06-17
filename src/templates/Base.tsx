@@ -4,6 +4,7 @@ import { Banner } from './Banner';
 import { Content } from './Content';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { Origins } from './Origins';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
@@ -13,6 +14,7 @@ const Base = () => (
     <Content />
     <VerticalFeatures />
     <Banner />
+    <Origins />
     <Footer />
   </div>
 );
