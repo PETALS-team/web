@@ -30,8 +30,8 @@ const Hero = () => (
 
     <Section yPadding="pb-32">
       <VerticalFeatureRow
-        title="Improve your team health with PETALS"
-        description="A simple framework to help continuously improve tech team health"
+        title="Improve your team health & culture with PETALS"
+        description="A simple framework to help continuously improve tech team's health"
         image="/assets/images/team-high-fives.svg"
         imageAlt="Team high fiving"
       />
