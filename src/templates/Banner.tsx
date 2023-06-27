@@ -20,7 +20,7 @@ const Banner = () => (
               name="email"
               id="bd-email"
               placeholder="you@website.com"
-              className="text-xl"
+              className="text-xl py-2 px-4 border"
             />
           </div>
           <div>
