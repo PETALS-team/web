@@ -1,6 +1,7 @@
 export const AppConfig = {
   site_name: 'PETALS',
   title: 'PETALS - a simple framework to improve team health',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  description:
+    'Use five common topics to identify improvement areas in your tech teams',
   locale: 'en',
 };
