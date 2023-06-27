@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section id="Join">
     <CTABanner
-      title="Get free toolkits and advice to help your team improve"
+      title="Get a free cheat sheet to get started with helping your team improve"
       subtitle="Join the PETALS newsletter with hundreds other users"
       button={
         <form
