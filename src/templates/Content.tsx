@@ -5,7 +5,7 @@ const Content = () => (
   <Background color="bg-amber-300">
     <Section id="Why">
       <div className="text-center text-xl">
-        <h2 className="text-4xl text-gray-900 font-bold pb-10">
+        <h2 className="text-4xl text-gray-900 font-gaegu font-bold pb-10">
           Why use PETALS?
         </h2>
         <p>

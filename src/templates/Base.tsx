@@ -8,7 +8,7 @@ import { Origins } from './Origins';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
-  <div className="antialiased text-gray-800 font-gaegu">
+  <div className="antialiased text-gray-800">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <Content />

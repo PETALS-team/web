@@ -5,7 +5,7 @@ const Origins = () => (
   <Background color="bg-amber-300">
     <Section id="Origins">
       <div className="text-center text-xl">
-        <h2 className="text-4xl text-gray-900 font-bold pb-10">
+        <h2 className="text-4xl text-gray-900 font-gaegu font-bold pb-10">
           Where did PETALS come from?
         </h2>
         <p>
