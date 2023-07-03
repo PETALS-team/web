@@ -28,7 +28,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
         <h3 className="text-3xl text-gray-900 font-gaegu font-semibold">
           {props.title}
         </h3>
-        <div className="mt-6 text-xl leading-9">{props.description}</div>
+        <div className="mt-6 leading-9">{props.description}</div>
       </div>
 
       <div className="w-full sm:w-1/2 p-6">

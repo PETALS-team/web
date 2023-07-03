@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 const Content = () => (
   <Background color="bg-amber-300">
     <Section id="Why">
-      <div className="text-center text-xl">
+      <div className="text-center">
         <h2 className="text-4xl text-gray-900 font-gaegu font-bold pb-10">
           Why use PETALS?
         </h2>
