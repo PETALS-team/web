@@ -69,7 +69,7 @@ const Meta = (props: IMetaProps) => {
           site_name: AppConfig.site_name,
           images: [
             {
-              url: `${router.basePath}/PETALS-opengraph.png`,
+              url: `/assets/images/PETALS-opengraph.png`,
               width: 2500,
               height: 1250,
               alt: 'Opengraph image',
