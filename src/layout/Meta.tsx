@@ -69,16 +69,10 @@ const Meta = (props: IMetaProps) => {
           site_name: AppConfig.site_name,
           images: [
             {
-              url: 'https://www.example.ie/og-image.jpg',
-              width: 800,
-              height: 600,
-              alt: 'Og Image Alt',
-            },
-            {
-              url: 'https://www.example.ie/og-image-2.jpg',
-              width: 800,
-              height: 600,
-              alt: 'Og Image Alt 2',
+              url: `${router.basePath}/PETALS-opengraph.png`,
+              width: 2500,
+              height: 1250,
+              alt: 'Opengraph image',
             },
           ],
         }}
