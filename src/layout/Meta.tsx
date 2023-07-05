@@ -67,6 +67,14 @@ const Meta = (props: IMetaProps) => {
           url: props.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
+          images: [
+            {
+              url: `/assets/images/PETALS-opengraph.png`,
+              width: 2500,
+              height: 1250,
+              alt: 'Opengraph image',
+            },
+          ],
         }}
       />
     </>
