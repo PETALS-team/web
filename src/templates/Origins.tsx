@@ -21,7 +21,11 @@ const Origins = () => (
           framework to regularly reflect on his working week. As he extended the
           model to the teams he led, it quickly grew in popularity for its
           simplicity and power for both teams and leadership, gaining attention
-          from popular publications and big name brands.
+          from popular publications like{' '}
+          <a href="https://emhub.io/articles/how-i-built-a-framework-to-measure-team-health">
+            EMHub
+          </a>{' '}
+          and big name brands.
         </p>
       </div>
     </Section>
