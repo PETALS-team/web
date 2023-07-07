@@ -22,7 +22,10 @@ const Origins = () => (
           model to the teams he led, it quickly grew in popularity for its
           simplicity and power for both teams and leadership, gaining attention
           from popular publications like{' '}
-          <a href="https://emhub.io/articles/how-i-built-a-framework-to-measure-team-health">
+          <a
+            href="https://emhub.io/articles/how-i-built-a-framework-to-measure-team-health"
+            className="underline"
+          >
             EMHub
           </a>{' '}
           and big name brands.
