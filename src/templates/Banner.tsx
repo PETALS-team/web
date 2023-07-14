@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section id="Join">
     <CTABanner
-      title="Get a free cheat sheet to get started with helping your team improve"
+      title="Get your free toolkit to start improving your team health"
       subtitle="Join the PETALS newsletter with hundreds other users"
       button={
         <form
@@ -43,6 +43,9 @@ const Banner = () => (
         </form>
       }
     />
+    <p className="text-center mt-5">
+      <small>Note: Initial toolkits will be released late July 2023</small>
+    </p>
   </Section>
 );
 
