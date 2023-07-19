@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
@@ -31,7 +33,7 @@ const Banner = () => (
             />
           </div>
           <input type="hidden" name="tag" value="website" />
-          <p>
+          <p className="mt-3 text-xs">
             <a
               href="https://buttondown.email/refer/petalsteam"
               target="_blank"
@@ -39,6 +41,8 @@ const Banner = () => (
             >
               Powered by Buttondown.
             </a>
+            {` `}
+            <Link href="/privacy">Privacy Policy</Link>
           </p>
         </form>
       }
