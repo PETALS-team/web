@@ -6,7 +6,6 @@ const Privacy = () => (
     <Section id="Privacy">
       <div className="">
         <h1 className="text-4xl font-gaegu">Privacy Policy</h1>
-        <p>Effective Date: 5 July 2023</p>
         <p>
           This Privacy Policy describes how we collect, use, store, and disclose
           the information we obtain from users (&quot;you&quot; or
@@ -148,6 +147,7 @@ const Privacy = () => (
           subscription, you acknowledge that you have read and understood this
           Privacy Policy and agree to be bound by its terms and conditions.
         </p>
+        <p className="mt-5">Last Updated: 5 July 2023</p>
       </div>
     </Section>
   </Background>
