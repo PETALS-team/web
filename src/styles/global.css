@@ -7,3 +7,7 @@
 .page-green {
   background-color: #68CFB7;
 }
+
+a {
+  text-decoration: underline;
+}
