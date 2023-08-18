@@ -7,6 +7,11 @@ const Privacy = () => (
       <div className="">
         <h1 className="text-4xl font-gaegu">Privacy Policy</h1>
         <p>
+          PETALS is a framework developed by the individual, Si Jobling. As such
+          all references to &quot;We&quot; refer to the individual trading as
+          the owner of this project.
+        </p>
+        <p>
           This Privacy Policy describes how we collect, use, store, and disclose
           the information we obtain from users (&quot;you&quot; or
           &quot;user&quot;) when you visit our website and provide your email
@@ -95,7 +100,10 @@ const Privacy = () => (
           information from unauthorized access, alteration, disclosure, or
           destruction. However, no method of transmission over the internet or
           electronic storage is 100% secure, and we cannot guarantee absolute
-          security of your data.
+          security of your data. We are UK-based, therefore operating under EU
+          regulations. However, some of our third parties are US based, where
+          personal details are stored and transferred using industry-standard
+          security measures.
         </p>
         <h2 className="text-2xl font-gaegu" id="Policy6">
           6. Your Rights and Choices
