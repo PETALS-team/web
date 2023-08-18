@@ -15,8 +15,8 @@ const Banner = () => (
           target="popupwindow"
           className="embeddable-buttondown-form"
         >
-          <div className="mb-5">
-            <label htmlFor="bd-email">Your email address</label>
+          <div className="mb-2">
+            <label htmlFor="bd-email">Email address</label>
             <input
               type="email"
               name="email"
@@ -26,6 +26,10 @@ const Banner = () => (
             />
           </div>
           <div>
+            <p className="py-2 text-sm">
+              I agree to the <Link href="/privacy">Privacy Policy</Link>
+            </p>
+            {` `}
             <input
               type="submit"
               value="Subscribe"
@@ -33,23 +37,9 @@ const Banner = () => (
             />
           </div>
           <input type="hidden" name="tag" value="website" />
-          <p className="mt-3 text-xs">
-            <a
-              href="https://buttondown.email/refer/petalsteam"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Powered by Buttondown.
-            </a>
-            {` `}
-            <Link href="/privacy">Privacy Policy</Link>
-          </p>
         </form>
       }
     />
-    <p className="text-center mt-5">
-      <small>Note: Initial toolkits will be released late July 2023</small>
-    </p>
   </Section>
 );
 
