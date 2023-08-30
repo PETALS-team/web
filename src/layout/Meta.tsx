@@ -16,6 +16,7 @@ const Meta = (props: IMetaProps) => {
   return (
     <>
       <Head>
+        <script src="https://cmp.osano.com/16CTOiTnkUBdy1TpG/5ffecccd-128c-420d-aa22-c0abad21b0ef/osano.js"></script
         <meta charSet="UTF-8" key="charset" />
         <meta
           name="viewport"
