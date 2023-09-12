@@ -6,19 +6,28 @@ const SnapshotsPage = () => (
   <Base>
     <Background color="bg-amber-300">
       <Section id="Snapshots">
-        <h1 className="text-4xl font-gaegu mb-6">PETALS Snapshots</h1>
-        <p className="mb-6">
+        <h1 className="text-4xl font-gaegu text-center mb-6">
+          PETALS Snapshots
+        </h1>
+        <p className="my-6">
           Follow the journey of how PETALS is growing with regular reflections
-          and insights from the creator, Si.
+          and insights from the creator, Si along with occasional cameos from
+          PETALS adopters and contributors.
         </p>
-        <p>
+        <p className="my-6">
           Content is released on a fortnightly cadence, similar to traditional
           Scrum sprints, providing enough opportunity to see measurable
           differences and allow time to produce the content.
         </p>
+        <p className="my-6">
+          Video content provides more context and visual aids on Youtube but
+          audio content is also available as a podcast for those who prefer the
+          format. Choose your favourite and provide feedback through the local
+          comment threads.
+        </p>
         <div className="py-6">
           <div id="Youtube">
-            <h2 className="text-3xl font-gaegu mb-6">Watch on Youtube</h2>
+            <h2 className="text-3xl font-gaegu my-6">Watch on Youtube</h2>
             <iframe
               width="100%"
               height="315"
@@ -31,7 +40,7 @@ const SnapshotsPage = () => (
             ></iframe>
           </div>
           <div id="Spotify">
-            <h2 className="text-3xl font-gaegu mb-6">Listen on Spotify</h2>
+            <h2 className="text-3xl font-gaegu my-6">Listen on Spotify</h2>
             <iframe
               className="rounded-xl"
               src="https://open.spotify.com/embed/show/1dGwBZFMtlLtcJG4nbQYGS?utm_source=generator&theme=0"
