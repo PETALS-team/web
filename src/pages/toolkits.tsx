@@ -1,5 +1,6 @@
 import { Background } from '../background/Background';
 import { Section } from '../layout/Section';
+import { Banner } from '../templates/Banner';
 import { Base } from '../templates/Base';
 
 const SnapshotsPage = () => (
@@ -77,6 +78,7 @@ const SnapshotsPage = () => (
             </p>
           </div>
         </div>
+        <Banner />
       </Section>
     </Background>
   </Base>
