@@ -1,6 +1,7 @@
 # Redirects from what the browser requests to what we serve
 /google-toolkit     https://docs.google.com/spreadsheets/d/1I8GnYLcRQinx23i6gq9yO-yKPnrszi3ItZKqkXd6law/copy?pli=1#gid=815659408 
 /microsoft-toolkit  https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__tYr5ANUQkhGVUcxNVhST1EwSEdFT1hBRlBXSldYUy4u&sharetoken=QoxSQ1rE7sdpls82yzU1
+/newsletter         https://buttondown.email/petalsteam
 /podcast            https://pinecast.com/feed/petals
 /spotify            https://open.spotify.com/show/1dGwBZFMtlLtcJG4nbQYGS?si=948ed8d2e7244db0
 /youtube            https://youtube.com/playlist?list=PLKbU77Ew5WTEGzy0nUAvnDPlKWcyRId9X&si=yRJGpQfWioiER3OG
