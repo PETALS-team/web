@@ -33,7 +33,7 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pb-32">
+    <Section yPadding="pb-4">
       <VerticalFeatureRow
         title="Improve your team health & culture with PETALS"
         description="A simple framework to help continuously improve tech team's health"
