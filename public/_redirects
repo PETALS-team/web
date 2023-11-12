@@ -1,5 +1,7 @@
 # Redirects from what the browser requests to what we serve
 /apple-podcasts     https://podcasts.apple.com/us/podcast/petals/id1698197915
+/chat               https://cal.com/jobling/petals
+/coaching           https://cal.com/jobling/coaching
 /google-toolkit     https://docs.google.com/spreadsheets/d/1I8GnYLcRQinx23i6gq9yO-yKPnrszi3ItZKqkXd6law/copy?pli=1#gid=815659408 
 /linkedin           https://www.linkedin.com/groups/12719709/
 /microsoft-toolkit  https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__tYr5ANUQkhGVUcxNVhST1EwSEdFT1hBRlBXSldYUy4u&sharetoken=QoxSQ1rE7sdpls82yzU1
