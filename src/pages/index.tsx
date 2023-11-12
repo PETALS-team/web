@@ -6,9 +6,9 @@ import { VerticalFeatures } from '../templates/VerticalFeatures';
 
 const Index = () => (
   <Base>
+    <Banner />
     <Content />
     <VerticalFeatures />
-    <Banner />
     <Origins />
   </Base>
 );
