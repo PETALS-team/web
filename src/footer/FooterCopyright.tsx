@@ -2,8 +2,8 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © {new Date().getFullYear()} {AppConfig.title}. Trademark pending{' '}
-    <a href="https://sijobling.com/petals/">Si Jobling</a>. Logo by{' '}
+    &copy; <a href="https://sijobling.com/blog/pop-petals/" title="Original blog post by Si Jobling">2022</a>-{new Date().getFullYear()} {AppConfig.title}. Trademark pending{' '}
+    <a href="https://sijobling.com/">Si Jobling</a>. Logo by{' '}
     <a href="https://blog.nocturnalmonkey.com/">Sam Hardacre</a>
     {/*
      * PLEASE READ THIS SECTION
