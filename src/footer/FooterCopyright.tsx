@@ -4,7 +4,7 @@ const FooterCopyright = () => (
   <div className="footer-copyright">
     &copy;{' '}
     <a
-      href="https://sijobling.com/blog/pop-petals/" 
+      href="https://sijobling.com/blog/pop-petals/"
       title="Original blog post by Si Jobling"
     >
       2022
