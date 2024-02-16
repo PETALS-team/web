@@ -48,7 +48,7 @@ const SnapshotsPage = () => (
             <p className="my-6">Book a space big enough for people to sit comfortably but also move about, ideally with a large wall or table to place your thoughts</p>
             <p className="my-6">Spread out the five headings across the space in the nominated colours:</p>
             <p className="my-6">
-            <span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Teamwork</span>
+            <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Teamwork</span>
             </p>
             <p>Leave space above and below each heading for positives (above) and negatives (below)</p>
           </div>
