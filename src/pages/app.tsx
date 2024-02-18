@@ -34,7 +34,11 @@ const AppPage = () => (
           <input type="submit" value="Subscribe" />
           <input type="hidden" name="tag" value="App" />
           <p>
-            <a href="https://buttondown.email/refer/petalsteam" target="_blank">
+            <a
+              href="https://buttondown.email/refer/petalsteam"
+              target="_blank"
+              rel="noreferrer"
+            >
               Powered by Buttondown.
             </a>
           </p>
