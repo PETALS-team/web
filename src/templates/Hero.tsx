@@ -11,24 +11,16 @@ const Hero = () => (
     <Section yPadding="pt-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/#Why">
-            <a>Why</a>
-          </Link>
+          <Link href="/#Why">Why</Link>
         </li>
         <li>
-          <Link href="/#How">
-            <a>How</a>
-          </Link>
+          <Link href="/#How">How</Link>
         </li>
         <li>
-          <Link href="/snapshots">
-            <a>Snapshots</a>
-          </Link>
+          <Link href="/snapshots">Snapshots</Link>
         </li>
         <li>
-          <Link href="/#Join">
-            <a>Join</a>
-          </Link>
+          <Link href="/#Join">Join</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
