@@ -10,8 +10,10 @@ const FooterCopyright = () => (
       2022
     </a>
     -{new Date().getFullYear()} {AppConfig.title}. Trademark pending{' '}
-    <a href="https://sijobling.com/">Si Jobling</a>. Logo by{' '}
-    <a href="https://blog.nocturnalmonkey.com/">Sam Hardacre</a>
+    <a rel="me" href="https://managingengineers.net/@si">
+      Si Jobling
+    </a>
+    . Logo by <a href="https://blog.nocturnalmonkey.com/">Sam Hardacre</a>
     {/*
      * PLEASE READ THIS SECTION
      * We'll really appreciate if you could have a link to our website
