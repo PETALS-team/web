@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { Logo } from './Logo';
 import { Background } from '../background/Background';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
@@ -9,20 +7,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 const Hero = () => (
   <Background color="">
     <Section yPadding="">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="/#Why">Why</Link>
-        </li>
-        <li>
-          <Link href="/#How">How</Link>
-        </li>
-        <li>
-          <Link href="/snapshots">Snapshots</Link>
-        </li>
-        <li>
-          <Link href="/#Join">Join</Link>
-        </li>
-      </NavbarTwoColumns>
+      <NavbarTwoColumns logo={<Logo xl />} />
     </Section>
 
     <Section yPadding="pb-4">

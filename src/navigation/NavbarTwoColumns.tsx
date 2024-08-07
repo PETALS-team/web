@@ -8,27 +8,33 @@ type INavbarProps = {
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap justify-between items-center">
-    <div>
-      <Link href="/">{props.logo}</Link>
+  <>
+    <div className="navbar bg-base-100">
+      <div className="navbar-start">
+        <a href="/" className="btn btn-ghost text-xl">
+          {props.logo}
+        </a>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <Link href="/#Why">Why</Link>
+          </li>
+          <li>
+            <Link href="/#How">How</Link>
+          </li>
+          <li>
+            <Link href="/snapshots">Snapshots</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <a href="/#Join" className="btn">
+          Get the app
+        </a>
+      </div>
     </div>
-
-    <nav>
-      <ul className="">{props.children}</ul>
-    </nav>
-
-    <style jsx>
-      {`
-        .navbar :global(li:not(:first-child)) {
-          @apply mt-0;
-        }
-
-        .navbar :global(li:not(:last-child)) {
-          @apply mr-5;
-        }
-      `}
-    </style>
-  </div>
+  </>
 );
 
 export { NavbarTwoColumns };
