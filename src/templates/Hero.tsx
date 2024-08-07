@@ -7,8 +7,8 @@ import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 
 const Hero = () => (
-  <Background color="page-green">
-    <Section yPadding="pt-6">
+  <Background color="">
+    <Section yPadding="">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/#Why">Why</Link>
