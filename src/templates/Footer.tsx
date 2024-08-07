@@ -50,7 +50,7 @@ const Footer = () => (
           />
         </svg>
         <p>
-          PETALS
+          <strong>PETALS</strong>
           <br />
           Growing team health since{' '}
           <a
