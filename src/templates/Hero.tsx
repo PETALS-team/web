@@ -7,7 +7,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 const Hero = () => (
   <Background color="">
     <Section yPadding="">
-      <NavbarTwoColumns logo={<Logo xl />} />
+      <NavbarTwoColumns logo={<Logo xl />}></NavbarTwoColumns>
     </Section>
 
     <Section yPadding="pb-4">
