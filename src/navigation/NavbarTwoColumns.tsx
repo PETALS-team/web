@@ -4,16 +4,15 @@ import Link from 'next/link';
 
 type INavbarProps = {
   logo: ReactNode;
-  children: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
   <>
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <a href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="btn btn-ghost text-xl">
           {props.logo}
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -29,7 +28,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="/#Join" className="btn btn-neutral">
+        <Link href="/#Join" className="btn btn-neutral">
           Get the app
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +44,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
               d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   </>
