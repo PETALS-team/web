@@ -8,23 +8,23 @@ const AppPage = () => (
     <Background color="bg-amber-300">
       <Section id="Toolkits">
         <h1 className="text-4xl font-gaegu text-center mb-6">
-          Get early access to the PETALS App
+          Get free access to the PETALS web app for 6 months
         </h1>
-        <p className="my-5">
-          Join the waiting list for exclusive early access to the bespoke
-          PETALS, built to streamline your own PETALS discussions around your
-          own schedule.
+        <p className="my-5 text-2xl">
+          Get exclusive early access to the PETALS web app, 
+          created to streamline and simplify the framework
+          for your teams.
         </p>
-        <p className="my-5">Our invite only access provides:</p>
+        <p className="my-5">Exclusively available:</p>
         <ul>
-          <li>Organisation configuration</li>
-          <li>Multiple team member onboarding</li>
-          <li>Metrics reports for each team</li>
-          <li>Bespoke account management &amp; regular support</li>
+          <li><strong>Organisation onboarding</strong> to create your account</li>
+          <li><strong>Team member invitations</strong> for any size</li>
+          <li><strong>Live metrics charts and reports</strong> for teams and individuals</li>
+          <li><strong>1 hour introductory consultancy</strong> to provide the right tools for your teams</li>
         </ul>
         <p className="my-8">
-          Simply provide some basic details and we&apos;ll invite you personally
-          when the app is ready.
+          Simply provide your deatils below to receive your invite link when the 
+          redesigned app launches in September 2024.
         </p>
         <form
           action="https://buttondown.email/api/emails/embed-subscribe/petalsteam"
