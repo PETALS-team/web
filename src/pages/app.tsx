@@ -11,19 +11,28 @@ const AppPage = () => (
           Get free access to the PETALS web app for 6 months
         </h1>
         <p className="my-5 text-2xl">
-          Get exclusive early access to the PETALS web app, 
-          created to streamline and simplify the framework
-          for your teams.
+          Exclusive early access to the PETALS web app, created to streamline
+          and simplify the framework for your teams.
         </p>
-        <p className="my-5">Exclusively available:</p>
+        <h2 className="text-xl my-5">What to expect?</h2>
         <ul>
-          <li><strong>Organisation onboarding</strong> to create your account</li>
-          <li><strong>Team member invitations</strong> for any size</li>
-          <li><strong>Live metrics charts and reports</strong> for teams and individuals</li>
-          <li><strong>1 hour introductory consultancy</strong> to provide the right tools for your teams</li>
+          <li>
+            <strong>Organisation onboarding</strong> to create your account
+          </li>
+          <li>
+            <strong>Team member invitations</strong> for any size
+          </li>
+          <li>
+            <strong>Live metrics charts and reports</strong> for teams and
+            individuals
+          </li>
+          <li>
+            <strong>1 hour introductory consultancy</strong> to provide the
+            right tools for your teams
+          </li>
         </ul>
         <p className="my-8">
-          Simply provide your deatils below to receive your invite link when the 
+          Simply provide your deatils below to receive your invite link when the
           redesigned app launches in September 2024.
         </p>
         <form
@@ -60,6 +69,24 @@ const AppPage = () => (
             />
           </div>
           <div className="relative inset-0 ">
+            <input type="text" name="" id="source" />
+            <label htmlFor="bd-source">How did you hear about PETALS?</label>
+            <select
+              name="metadata__source"
+              id="bd-source"
+              className="block w-full rounded-md border-1 p-2 "
+            >
+              <option>Word of mouth</option>
+              <option>Social network</option>
+              <option>Search engine</option>
+              <option>Blog article</option>
+              <option>Event</option>
+              <option>- MKGN</option>
+              <option>- MatchTech</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div className="text-center">
             <input
               type="submit"
               value="Sign up"
