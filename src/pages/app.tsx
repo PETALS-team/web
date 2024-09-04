@@ -41,6 +41,7 @@ const AppPage = () => (
           target="popupwindow"
           className="embeddable-buttondown-form grid grid-cols-1 md:grid-cols-4 gap-6"
         >
+          <div>
           <div className="relative inset-0 ">
             <label htmlFor="bd-email">Your email address</label>
             <input
@@ -59,6 +60,8 @@ const AppPage = () => (
               className="block w-full rounded-md border-1 p-2 "
             />
           </div>
+          </div>
+          <div>
           <div className="relative inset-0 ">
             <label htmlFor="bd-organisaton">Your organisation name</label>
             <input
@@ -86,6 +89,7 @@ const AppPage = () => (
               </optgroup>
               <option>Other</option>
             </select>
+          </div>
           </div>
           <div className="text-center">
             <input
