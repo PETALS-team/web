@@ -69,7 +69,6 @@ const AppPage = () => (
             />
           </div>
           <div className="relative inset-0 ">
-            <input type="text" name="" id="source" />
             <label htmlFor="bd-source">How did you hear about PETALS?</label>
             <select
               name="metadata__source"
@@ -81,8 +80,10 @@ const AppPage = () => (
               <option>Search engine</option>
               <option>Blog article</option>
               <option>Event</option>
-              <option>- MKGN</option>
-              <option>- MatchTech</option>
+              <optgroup>
+                <option>MKGN</option>
+                <option>MatchTech</option>
+              </optgroup>
               <option>Other</option>
             </select>
           </div>
