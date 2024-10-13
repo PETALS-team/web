@@ -8,7 +8,7 @@ const StartedPage = () => (
     <Background color="bg-amber-300">
       <Section id="GettingStarted">
         <h1 className="text-4xl font-gaegu text-center mb-6">
-          Getting Started with PETALS
+          Get started with PETALS
         </h1>
         <p className="my-12"> </p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -23,7 +23,7 @@ const StartedPage = () => (
           <div className="relative inset-0 ">
             <p className="my-6">
               Capture some data from your team with
-              <a href="https://petals.team/register">our web app</a>
+              <a href="https://petals.team/app">our web app</a>
             </p>
           </div>
           <div className="relative inset-0 ">
