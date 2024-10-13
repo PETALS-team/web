@@ -6,7 +6,7 @@ import { Base } from '../templates/Base';
 const StartedPage = () => (
   <Base>
     <Background color="bg-amber-300">
-      <Section id="GettingStarted">
+      <Section id="GetStarted">
         <h1 className="text-4xl font-gaegu text-center mb-6">
           Get started with PETALS
         </h1>
@@ -14,7 +14,7 @@ const StartedPage = () => (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="relative inset-0 ">
             <p className="my-6">
-              Introduce PETALS to your team with the
+              Introduce PETALS to your team with the&nbsp;
               <a href="https://static.petals.team/docs/what-is-petals.pdf">
                 &quot;What is PETALS&quot; presentation
               </a>
@@ -22,7 +22,7 @@ const StartedPage = () => (
           </div>
           <div className="relative inset-0 ">
             <p className="my-6">
-              Capture some data from your team with
+              Capture some data from your team with&nbsp;
               <a href="https://petals.team/app">our web app</a>
             </p>
           </div>
