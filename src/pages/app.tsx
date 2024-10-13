@@ -39,6 +39,7 @@ const AppPage = () => (
                     type="email"
                     name="email"
                     id="bd-email"
+                    required="required"
                     className="block w-full rounded-md border-1 p-2 "
                   />
                 </div>
@@ -48,6 +49,7 @@ const AppPage = () => (
                     type="text"
                     name="metadata__first_name"
                     id="bd-first-name"
+                    required="required"
                     className="block w-full rounded-md border-1 p-2 "
                   />
                 </div>
@@ -59,6 +61,7 @@ const AppPage = () => (
                     type="text"
                     name="metadata__organisation"
                     id="bd-organisaton"
+                    required="required"
                     className="block w-full rounded-md border-1 p-2 "
                   />
                 </div>
