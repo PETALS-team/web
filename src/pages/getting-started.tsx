@@ -14,14 +14,16 @@ const StartedPage = () => (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="relative inset-0 ">
             <p className="my-6">
-              Introduce PETALS to your team with the &quot;What is PETALS&quot;
-              presentation
+              Introduce PETALS to your team with the
+              <a href="https://static.petals.team/docs/what-is-petals.pdf">
+                &quot;What is PETALS&quot; presentation
+              </a>
             </p>
           </div>
           <div className="relative inset-0 ">
             <p className="my-6">
-              Capture some data from your team with the Google Toolkit or
-              Microsoft Form
+              Capture some data from your team with
+              <a href="https://petals.team/register">our web app</a>
             </p>
           </div>
           <div className="relative inset-0 ">
