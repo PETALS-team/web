@@ -17,6 +17,9 @@ const Hero = () => (
           <Link href="/#How">How</Link>
         </li>
         <li>
+          <Link href="/get-started">Get Started</Link>
+        </li>
+        <li>
           <Link href="/snapshots">Snapshots</Link>
         </li>
         <li>
@@ -25,7 +28,7 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pb-4">
+    <Section yPadding="pb-2">
       <VerticalFeatureRow
         title="Improve your team health & culture with PETALS"
         description="A simple framework to help continuously improve tech team's health"
