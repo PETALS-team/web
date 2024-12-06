@@ -26,76 +26,7 @@ const AppPage = () => (
               Just share your details below to receive your personal invite link
               when the redesigned app launches in Q4 2024.
             </p>
-            <form
-              action="https://buttondown.email/api/emails/embed-subscribe/petalsteam"
-              method="post"
-              target="popupwindow"
-              className="embeddable-buttondown-form"
-            >
-              <div>
-                <div className="my-4">
-                  <label htmlFor="bd-email">Your email address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="bd-email"
-                    required
-                    className="block w-full rounded-md border-1 p-2 "
-                  />
-                </div>
-                <div className="my-4">
-                  <label htmlFor="bd-first-name">Your first name</label>
-                  <input
-                    type="text"
-                    name="metadata__first_name"
-                    id="bd-first-name"
-                    required
-                    className="block w-full rounded-md border-1 p-2 "
-                  />
-                </div>
-              </div>
-              <div>
-                <div className="my-4">
-                  <label htmlFor="bd-organisaton">Your organisation name</label>
-                  <input
-                    type="text"
-                    name="metadata__organisation"
-                    id="bd-organisaton"
-                    required
-                    className="block w-full rounded-md border-1 p-2 "
-                  />
-                </div>
-                <div className="my-4">
-                  <label htmlFor="bd-source">
-                    How did you hear about PETALS?
-                  </label>
-                  <select
-                    name="metadata__source"
-                    id="bd-source"
-                    className="block w-full rounded-md border-1 p-2 "
-                  >
-                    <option>Word of mouth</option>
-                    <option>Social network</option>
-                    <option>Search engine</option>
-                    <option>Blog article</option>
-                    <option>Event</option>
-                    <optgroup>
-                      <option>MKGN</option>
-                      <option>MatchTech</option>
-                    </optgroup>
-                    <option>Other</option>
-                  </select>
-                </div>
-              </div>
-              <div className="my-4 text-center">
-                <input
-                  type="submit"
-                  value="Sign up"
-                  className="rounded-md bg-slate-600 px-10 py-5 text-sm font-semibold text-white "
-                />
-                <input type="hidden" name="tag" value="App" />
-              </div>
-            </form>
+            <iframe width="540" height="305" src="https://275970ae.sibforms.com/serve/MUIFAGsQZB2mkYS_9cc0ng-072IkaSPJG09wofkgI4ne8qO8YK0vtAwiL5XYJ0l5dBdnsVoD0lm0u36exarLxoBIz0NGsBj3CYXpLc3YT4JzZDbBVy_6yAw95N6RHs3xvrnd5soWeCWCobMrqHtKz7ZAeWox3x4KkKdTpiMnc6OFTpQcBrnxfOujGR8L6kzOI6hNWJTmKDRV3ClD" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
           </div>
           <div id="MobileApp">
             <img
