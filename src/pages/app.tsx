@@ -26,7 +26,11 @@ const AppPage = () => (
               Just share your details below to receive your personal invite link
               when the redesigned app launches in Q4 2024.
             </p>
-            <iframe width="540" height="305" src="https://275970ae.sibforms.com/serve/MUIFAGsQZB2mkYS_9cc0ng-072IkaSPJG09wofkgI4ne8qO8YK0vtAwiL5XYJ0l5dBdnsVoD0lm0u36exarLxoBIz0NGsBj3CYXpLc3YT4JzZDbBVy_6yAw95N6RHs3xvrnd5soWeCWCobMrqHtKz7ZAeWox3x4KkKdTpiMnc6OFTpQcBrnxfOujGR8L6kzOI6hNWJTmKDRV3ClD" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+            <iframe
+              width="500"
+              height="650"
+              src="https://275970ae.sibforms.com/serve/MUIFAGQ76_yDEjIFiM33eEV5ekY00VeM3nwV1mHXiw6m5ejHDxX5BgmPX_rSMu5rC0DPEykP-jIm6vrTdddt9IatfMAtUZSgXGLZyzmpTNAg5u5CLkip2Rd3HzuOWFoOVHXu9ozxNU-gaTq50kbcyqElv_8CioKvScNrFdRFbcRDJBURrJ683frbXSLSBFxtVeE1K7kSp1FjIOuO"
+            ></iframe>
           </div>
           <div id="MobileApp">
             <img
