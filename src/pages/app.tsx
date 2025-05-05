@@ -27,7 +27,7 @@ const AppPage = () => (
               when the redesigned app launches in Q4 2024.
             </p>
             <iframe
-              width="500"
+              width="100%"
               height="650"
               src="https://275970ae.sibforms.com/serve/MUIFAGQ76_yDEjIFiM33eEV5ekY00VeM3nwV1mHXiw6m5ejHDxX5BgmPX_rSMu5rC0DPEykP-jIm6vrTdddt9IatfMAtUZSgXGLZyzmpTNAg5u5CLkip2Rd3HzuOWFoOVHXu9ozxNU-gaTq50kbcyqElv_8CioKvScNrFdRFbcRDJBURrJ683frbXSLSBFxtVeE1K7kSp1FjIOuO"
             ></iframe>
